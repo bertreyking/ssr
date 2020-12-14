@@ -56,6 +56,7 @@ gcc -c -pipe -O2   -pthread -Wall   pcrs.c -o pcrs.o
 gcc  -pthread -o privoxy actions.o cgi.o cgiedit.o cgisimple.o deanimate.o encode.o errlog.o filters.o gateway.o jbsockets.o jcc.o list.o loadcfg.o loaders.o miscutil.o parsers.o ssplit.o urlmatch.o client-tags.o  pcrs.o   -lnsl  -lpcre -lpcreposix   
 grep -v '^#MASTER#' default.action.master > default.action
 3. 安装privoxy
+# make && make -n install
 # make install
 Creating directories, and preparing Privoxy 3.0.26 stable installation
 chmod 0755 ./mkinstalldirs
