@@ -1,6 +1,6 @@
 1.如何搭建ssr_server
 ```
-- 安装ssr
+- 安装ssr[参考链接](https://i4t.com/3151.html)
 ```
 2.配置linux主机访问互联网-[Privoxy](https://github.com/bertreyking/ssr/blob/main/installPrivoxy.md)
 ```
